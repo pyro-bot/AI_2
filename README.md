@@ -1,7 +1,7 @@
-# AI_1
-Репозиторий для предмета искуственный интилект 1 семестр
+# AI_2
+Репозиторий для предмета искуственный интилект 2 семестр
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/pyro-bot/AI_1/master)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/pyro-bot/AI_2/master)
 
  **Обратите внимание**, что описание лабораторных работ и задания к ним находится на https://lir.ugrasu.ru/index.php/dir/16739
 
