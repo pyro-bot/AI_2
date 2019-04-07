@@ -1,0 +1,159 @@
+main.py:3: DeprecationWarning: object of type <class 'float'> cannot be safely interpreted as an integer.
+  my_array = np.linspace(5, 100, 100/5)
+[  5.  10.  15.  20.  25.  30.  35.  40.  45.  50.  55.  60.  65.  70.
+  75.  80.  85.  90.  95. 100.]
+[ 10.  20.  30.  40.  50.  60.  70.  80.  90. 100.]
+[[ 10.  20.]
+ [ 30.  40.]
+ [ 50.  60.]
+ [ 70.  80.]
+ [ 90. 100.]]
+[[ 5. 15.]
+ [25. 35.]
+ [45. 55.]
+ [65. 75.]
+ [85. 95.]]
+[[ 10.  20.   5.  15.]
+ [ 30.  40.  25.  35.]
+ [ 50.  60.  45.  55.]
+ [ 70.  80.  65.  75.]
+ [ 90. 100.  85.  95.]]
+[[ 10.          20.           5.          15.        ]
+ [  3.           1.33333333   0.5          0.5       ]
+ [  2.5          1.5          0.75         0.6875    ]
+ [ 70.          80.          65.          75.        ]
+ [ 90.         100.          85.          95.        ]]
+[ 10.  20.   5.  15.  70.  80.  65.  75.  90. 100.  85.  95.]
+[[ 90. 100.  85.  95.]
+ [ 70.  80.  65.  75.]
+ [ 10.  20.   5.  15.]]
+[92.5 72.5 12.5]
+[92.5 72.5 12.5]
+[5.59016994 5.59016994 5.59016994]
+[array([0.9 , 1.  , 0.85, 0.95]), array([0.875 , 1.    , 0.8125, 0.9375]), array([0.5 , 1.  , 0.25, 0.75])]
+3.6
+3.143664506839453
+3.147225847095352
+3.134997300053999
+3.1443356958038025
+3.1408812729498163
+3.1439242803785983
+3.1411504538558463
+3.1421750722811597
+3.141716
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 32561 entries, 0 to 32560
+Data columns (total 15 columns):
+age               32561 non-null int64
+workclass         32561 non-null object
+fnlwgt            32561 non-null int64
+education         32561 non-null object
+education-num     32561 non-null int64
+marital-status    32561 non-null object
+occupation        32561 non-null object
+relationship      32561 non-null object
+race              32561 non-null object
+sex               32561 non-null object
+capital-gain      32561 non-null int64
+capital-loss      32561 non-null int64
+hours-per-week    32561 non-null int64
+native-country    32561 non-null object
+salary            32561 non-null object
+dtypes: int64(6), object(9)
+memory usage: 3.7+ MB
+None
+[21790 10771]
+[36.85823043 39.4335475 ]
+0.0029176008107859096
+             mean        std
+salary                      
+<=50K   36.783738  14.020088
+>50K    44.249841  10.519028
+True     0.57837
+False    0.42163
+Name: education, dtype: float64
+                             count       mean        std  ...   50%    75%   max
+race               sex                                    ...                   
+Amer-Indian-Eskimo Female    119.0  37.117647  13.114991  ...  36.0  46.00  80.0
+                   Male      192.0  37.208333  12.049563  ...  35.0  45.00  82.0
+Asian-Pac-Islander Female    346.0  35.089595  12.300845  ...  33.0  43.75  75.0
+                   Male      693.0  39.073593  12.883944  ...  37.0  46.00  90.0
+Black              Female   1555.0  37.854019  12.637197  ...  37.0  46.00  90.0
+                   Male     1569.0  37.682600  12.882612  ...  36.0  46.00  90.0
+Other              Female    109.0  31.678899  11.631599  ...  29.0  39.00  74.0
+                   Male      162.0  34.654321  11.355531  ...  32.0  42.00  77.0
+White              Female   8642.0  36.811618  14.329093  ...  35.0  46.00  90.0
+                   Male    19174.0  39.652498  13.436029  ...  38.0  49.00  90.0
+
+[10 rows x 8 columns]
+True     0.859074
+False    0.140926
+Name: marital-status, dtype: float64
+99
+85
+<=50K    0.705882
+>50K     0.294118
+Name: salary, dtype: float64
+native-country              salary
+?                           <=50K     40.164760
+                            >50K      45.547945
+Cambodia                    <=50K     41.416667
+                            >50K      40.000000
+Canada                      <=50K     37.914634
+                            >50K      45.641026
+China                       <=50K     37.381818
+                            >50K      38.900000
+Columbia                    <=50K     38.684211
+                            >50K      50.000000
+Cuba                        <=50K     37.985714
+                            >50K      42.440000
+Dominican-Republic          <=50K     42.338235
+                            >50K      47.000000
+Ecuador                     <=50K     38.041667
+                            >50K      48.750000
+El-Salvador                 <=50K     36.030928
+                            >50K      45.000000
+England                     <=50K     40.483333
+                            >50K      44.533333
+France                      <=50K     41.058824
+                            >50K      50.750000
+Germany                     <=50K     39.139785
+                            >50K      44.977273
+Greece                      <=50K     41.809524
+                            >50K      50.625000
+Guatemala                   <=50K     39.360656
+                            >50K      36.666667
+Haiti                       <=50K     36.325000
+                            >50K      42.750000
+                                        ...    
+Mexico                      >50K      46.575758
+Nicaragua                   <=50K     36.093750
+                            >50K      37.500000
+Outlying-US(Guam-USVI-etc)  <=50K     41.857143
+Peru                        <=50K     35.068966
+                            >50K      40.000000
+Philippines                 <=50K     38.065693
+                            >50K      43.032787
+Poland                      <=50K     38.166667
+                            >50K      39.000000
+Portugal                    <=50K     41.939394
+                            >50K      41.500000
+Puerto-Rico                 <=50K     38.470588
+                            >50K      39.416667
+Scotland                    <=50K     39.444444
+                            >50K      46.666667
+South                       <=50K     40.156250
+                            >50K      51.437500
+Taiwan                      <=50K     33.774194
+                            >50K      46.800000
+Thailand                    <=50K     42.866667
+                            >50K      58.333333
+Trinadad&Tobago             <=50K     37.058824
+                            >50K      40.000000
+United-States               <=50K     38.799127
+                            >50K      45.505369
+Vietnam                     <=50K     37.193548
+                            >50K      39.200000
+Yugoslavia                  <=50K     41.600000
+                            >50K      49.500000
+Name: hours-per-week, Length: 82, dtype: float64
